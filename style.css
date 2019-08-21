@@ -1,52 +1,102 @@
 /*---Media Queries --*/
-@media (max-width: 992px) {
 
-  }
-@media (max-width: 768px) {
-  
-}
-@media (max-width: 576px) {
-  
-}
+@media (max-width: 992px) {}
 
-#slides{
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
+
+#slides {
     text-align: center;
-    position:relative;
-    
-    
+    position: relative;
 }
+
+body {
+    margin: 10px;
+    font-family: 'Fugaz One', sans-serif, cursive;
+    background: url('./assets/images/color-swirl.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #02040F!important;
+}
+
+/*---------------------------------------------
+
 body {
     margin:10px;
     font-family: 'Fugaz One', sans-serif, cursive;
     color: #02040F!important;
     background-color: #E6C79C;
-    background-image:url('./assets/images/color-swirl.jpg');
+    background-image:url('./assets/images/color-swirl.jpg') ;
 }
+----------------------------------------------*/
+
 .navbar-brand {
     font-family: 'Monoton', cursive;
     color: #02040F!important;
 }
+
 .navbar-custom {
-    background-color: #B7990D;
+    background-color: rgba(163, 93, 29, 0.85);
     border-bottom-style: groove;
-    border-bottom-color: #2222 ;
+    border-bottom-color: #2222;
 }
+
 .carousel-indicators li {
     width: 10px;
     height: 10px;
     border-radius: 100%;
 }
+
+.carousel-inner {
+    margin: 0px;
+    padding: 0px;
+}
+
 .jumbotron {
-  background-color: transparent;  
+    background-color: transparent;
 }
+
+.row {
+    text-align: center;
+    margin: auto;
+}
+
 .rounded-corners {
- border-radius: 50%;
- padding-right:25px;
+    border-radius: 50%;
+    padding-right: 25px;
 }
+
 .biographics {
-    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(163, 93, 29, 0.65);
+    border: 2px solid rgba(163, 93, 29, 0.7);
+}
 
+.bg-1 {
+    background-color: rgba(163, 93, 29, 0.85);
+    color: #02040F;
 
+}
+
+.bg-1 h3 {
+    color: #02040F;
+}
+
+.bg-1 p {
+    font-style: italic;
+}
+
+#tour .list-group-item {
+    background-color: #d0c391;
+}
+
+.form-control {
+    border-radius: 0;
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
@@ -64,4 +114,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
